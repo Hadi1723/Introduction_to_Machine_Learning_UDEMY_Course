@@ -1,0 +1,43 @@
+Frequency Distribution for QUALITATIVE DATA:
+	- Definition: a list of allcategories and the number of elements that belong top each of the category
+		- This is like the frequency table that we formed in R
+	- Formula for relative frequency of category = (relative frequency of category) / (Sum of all frequencies)
+
+Bar graph for QUALITATIVE DATA: 
+	- Definition: a graph made of bars whose heights represent the ferquencies of respective categories
+	- The bar graph equilvalent of a frequency distribution table
+	- x-axis is the categories
+	- y-axis is the frequencies
+	- NOTE: this is the same bargraph that we formed in R
+
+Frequency Distribution for QUANTATIVE DATA:
+	- Definition: lists all the CLASSES (ranges independent variables) and the number that belong to each catagory
+	- Steps on how to form these types of data:
+		1. Select number of classes/ranges 
+			- Typically between 5 and 20
+		2. Calculate the class width (the size of range)
+			- Class width = (max value - min value) / number of classes
+			- Round answer as needed
+		3. Complete the table
+
+Histogram for for QUANTATIVE DATA:
+	- Definition: It is a graph consisting of bars of equal width drawn adjacent to each other
+	- Horizontal axis represent the ranges
+	- Vertical axis represent the frequencies
+	- NOTE: this is the same histogram that we formed in R
+	- Types of Histogram:
+		1. Symmetric
+		2. Skewed (asymmetric)
+		3. Uniform (all bars form a smooth, perfect rectangle)
+
+Normal Distribution:
+	- for continuous (meaning for quantatitive data) data that is SYMETRIC and bell-shaped
+	- The graph that depicts normal distribution describes that the dependent variable (probability density) is a function of the distance between the current data value and the mean
+		- The peak value is the mean
+			- the curve is symmetric about the mean
+		- As we move far away from the mean, the probability of that event happening decreases
+		- The probability of a range of value/outcome is calculated by finding the area under the curve
+			- The area of the whole curve is 1.0 because all probability of all outcomes must add to 1.0
+
+
+Probaility density?????

@@ -1,0 +1,27 @@
+Types of Statistics:
+	1. Descriptive
+		- Definition: consist of methods for:
+			. Organizing data
+			. Displaying data
+			. Describing data
+		- Tools for applying data:
+			. Tables
+				. frequency distribution tables
+			. Graphs
+				. histrograms
+				. barplots
+			. Summary Measures:
+				. Mesures of Central Tendency
+					. Mean
+					. Mode
+					. Median
+				. Measures of Dispersion
+					. Range
+					. Standard Deviation
+	2. Inferential
+		- Definition: consist of methods that use sample results to make decisions or predictions about a population
+		- Tools for applying data:
+			. ANOVA
+			. Linear regression
+			. Decision Trees
+			. Neural Networks

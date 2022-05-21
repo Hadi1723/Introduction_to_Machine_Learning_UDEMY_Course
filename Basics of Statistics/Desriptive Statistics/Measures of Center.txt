@@ -1,0 +1,39 @@
+Definition: measure of center is a value at the middle of a data set
+
+Types of Measures of Centers:
+	1. Mean
+		- Definition: just the average of all values
+			- Note: heavily influenced by outliers
+			- Note: can only be used for quantitative data
+		- Two types:
+			. Population mean: all data values included
+			. Sample mean: only portion of data values included
+	2. Median
+		- Definition: the value of middle term when ordered in incraesing/decreasing order
+			- Note: Median might be a preferred center over mean when talking about skewed data because median is not heavily influencedb by outliers
+			- Note: if there are even number of data values, we find average of the two middle terms
+			- Note: can only be used for quantitative data
+	3. Mode
+		- Definition: the most occuring (highest frequency or probability) data value
+			- Note: Mode can be used for both quantitative and qualitative data
+		- 4 types:
+			a) Single mode: only one most-frequent value
+			b) Bimodal: two most-frequent values
+			c) Multimodel: more than 2 most-frequent values
+			d) no mode: no most-frequent values
+	4. Mid-Range:
+		- Formula: (max + min) / 2
+
+Comparison of centers of types of histrograms:
+	1. Symmetric:
+		. Mode = Median = Mean
+	2. Skewed to the left:
+		. Mode < Median < Mean
+		. Median is preferred
+	3. Skewed to the right:
+		. Mean < Median < Mode
+		. Median is preferred
+	4. Uniform:??
+		
+
+

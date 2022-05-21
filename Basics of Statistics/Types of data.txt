@@ -1,0 +1,16 @@
+Different Types of Data:
+	1. Qualitative/Categorial Data
+		. Definition: Data tha can classified into two or more NONNUMERIC catagories
+		. Two Types:
+			- Nominal Data
+				. Definition: NON-ORDERED (no RANKING) data
+			- Ordinal Data
+				. Definition: ORDERED or RANKED Data
+	2. Quantitative data
+		. Definition: Data that CAN BE measured NUMERICALLY
+		. Two Types:
+			- Discrete Data
+				. Definition: Countable data (finite or countably infinite data)
+			- Continuous Data
+				. Definition: Uncountable data
+

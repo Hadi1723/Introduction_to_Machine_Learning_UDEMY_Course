@@ -1,0 +1,19 @@
+Definition: measurement of dispersion helps one to learn about the SPREAD of a data
+
+Types of measurement of dispersion:
+	1. Range
+		- Formula: max - min
+		- Note: may not be useful because it is also heavily influenced by outliers
+	2. Standard Deviation
+		- Formula: sqrt(Variance)
+		- 2 types:
+			a) Population Standard Deviation
+				. uses population mean
+			b) Sample Standard Deviation
+				. uses sample mean
+		- Note: a larger standrad deviation indicates MORE SPEAD OUT values
+			- the values are farther away from the mean
+	
+	3. Variance
+		- Formula: Standard deviation ^ 2
+		- Definition: the mean of the squared differenced from the mean
