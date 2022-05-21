@@ -1,0 +1,22 @@
+Purposes of different packages:
+
+1. dplyr package: designed to make data manipulation tasks simpler and more intuitive than working with base R functions only
+	- here, we can:
+		a) select columns of a table
+		b) filter rows of a table
+		c) arrange rows of a table in order
+2. readr: load data into R
+3. dummies: used to make dummy variables
+4. MASS: used for linear discriminant analysis
+5. DescTools: used to find mode among a vector
+6. class: used for KNN classifying approach
+
+tidyverse: a collection of R packages designed for data science
+	- Includes:
+		1. Dplyr
+		2. Readr
+
+
+
+
+
