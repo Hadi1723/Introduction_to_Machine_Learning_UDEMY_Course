@@ -1,0 +1,17 @@
+We form confusion matriced after our model has been trained and our model is preidtcing classes/values for dependent variable (Which is categorial)
+
+2 types of error involved:
+	a) Type 1:
+		. when model predicted "Yes" value, but actual default value is "No"
+		. False positive
+	b) Type 2:
+		. when model predicted deafult to be "No", but actual default value is "True"
+		. False negative
+
+These two types of error leads to costs and ineffiencies
+
+
+One way to identify the best classifier is through the ROC curve
+	 the curve whose area is closest to 1.0 will be identifies as the best classifier
+
+Other ways to judge performance of logistic regression modles include precision score and recall score	

@@ -1,0 +1,13 @@
+KNN is a non-parametric method
+	. we don't assume any function form of model
+		. this leads to potentially high accuracy
+		. no functional form because curves cannot be modeled
+
+K-value (hyper parameter) because it controls the flexibility of the KNN classifier
+	. the higher the K-value, the less flexible the bounfdaries of the classufier
+		. so we must choose our k-value accordingly as flexibility controls high/low testing error
+	. we need to standardize data to avoid scaling problems
+		. high quantity should have impact based on context (something that doesn't occur because of scaling problems)
+		. standarizing independent values implies that the mean of each independent variable becomes 0 and the standrad deviation of each independent variable becomes 1
+
+

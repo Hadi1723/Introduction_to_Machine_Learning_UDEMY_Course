@@ -1,0 +1,9 @@
+. More preferred when a dependent variable has more than 2 classes (when the dependent variable is categorial and there are 2 or more possible values)
+. This is based on Bayes Theorem
+	. this means that conditional probability is also involved
+	. Below is how it is applied:
+		. the base classifier (the algorithm) will assign that input-value a SINGLE catagorial outcome based on which ever outcome gave HIGHEST conditional probability of occuring for a SPECIFIC variable
+		. See picture for more detail
+
+continuous data are normally distributed
+	. has lowest possible theoretical error rate as a result

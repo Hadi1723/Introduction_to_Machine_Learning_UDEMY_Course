@@ -1,0 +1,33 @@
+ - As stated before, we want to split 70-80% of data for training an algorithm and 20-30% of data for testing data
+	- Training error: performance of model on previously SEEN data
+		- includes inpuut and expected output
+	- Testing error: performance of model of UNSEEN data
+		- includes ONLY inputs
+		- this includes calculation of MSE (mean squared error) as well 
+	- Note: method with lowest tarining error CAN NOT NESSISSARLY have low test error
+
+- Confusion matriox is used for the test set to judge performance of classifier
+
+- We have to split data because there is no gurantee that low training error will also give testing error
+	- splitting data is important to avoid overfitting
+		- a phenonoma that occurs with very flexible methods that leads to low training error, but high testing error
+	- so we have to split data accordingly so that we have a learning method that is flexible enough that it minimizes testing error
+	- testing error is more important than training error
+
+- Here, our goal is deciding on how to split the data so that we get MINIMUM test error
+	- They are revealed in picture on same directory
+	- Notes:
+		. The split between 80%(training) and 20%(testing) is known as the "VALIDATION SET APPROACH"
+			. this is most common approach				
+			. one negative consequency is that having less training data will impact accuracy of model
+			. we use the next two methods to correct this issue, but this method is still more propular
+		."Leave one out cross validation" approach, we do the following:
+			. we run model n-times where each time, we use ONLY the n-th position obervation for testing and the remaining n-1 obervations for training
+			. it is a special case of the "k-fold" method
+			. but can take longer time because we are running the model n-times
+		. in the "K-fold validation approach"
+			. divide the data into k-sets
+			. we will use k-1 sets for training and 1 of the sets for testing
+			
+	
+NOTE: y_test r^2 is more important than y_train r^2

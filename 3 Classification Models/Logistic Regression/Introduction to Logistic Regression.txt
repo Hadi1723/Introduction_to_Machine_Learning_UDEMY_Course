@@ -1,0 +1,13 @@
+. Because we are not dealing with linear models, the values of B0 and B1 are calculated differently in logistic regression 
+	. In linear regression, we used OLS to find coefficients
+	. In logistic regression we use the "maximum likelihood method"
+		. we want to maximize p(x), make it equal to 1, if we are defaulting
+		. we want the predicted probability of outcome/value to approach 0 if we are not defaulting
+. We also use logistic regression as it deals with outline points better than linear regression
+
+
+NOTE: hypthesis tesing works exact same way in logistic regression
+	. of the p-value is less than 0.05, we can way that independent value truely has significance over dependent variable
+
+NOTE: we CANNOT use logistic regression when dependent variable as MORE THAN 2 classes (when the dependent variable is categorial and there are 2 or more possible values)
+
